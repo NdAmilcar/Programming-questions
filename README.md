@@ -1,3 +1,5 @@
+
+![This is an image](https://github.com/NdAmilcar/Programming-questions/blob/main/imagenes/Captura%20de%20pantalla%20de%20Preguntas.png)
 # Programming questions
 programming questions, basic
 
@@ -24,3 +26,5 @@ Lista de tareas, todo se aloja en local.
 ## El límite es solo la imaginación.
 
  # Muchos éxitos!
+ 
+ 
