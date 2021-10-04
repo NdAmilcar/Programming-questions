@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Choice to Program</title>
+</head>
+<body>
+    <div id="container">
+        <header>
+            
+            <h1>App De Preguntas</h1>
+            <p>Preguntas:</p>
+        </header>
+        <section>
+            
+            <div id="resultado"></div>
+            <form name="quizForm" onsubmit="return verificarRespuestas()">
+                
+            <h2>1. Angular es definido como:</h2>
+            <input type="radio" name="p1" value="a">a. Framework <br>
+            <input type="radio" name="p1" value="b">b. Libreria <br>
+            <input type="radio" name="p1" value="c">c. Lenguaje de programación <br>
+            <input type="radio" name="p1" value="d">d. Ninguna de las anteriores <br>
+
+            <h2>2. Javascript es lo mismo que Java?</h2>
+
+            <input type="radio" name="p2" value="b">b. No <br>
+            <input type="radio" name="p2" value="a">a. Si <br>
+            <input type="radio" name="p2" value="c">c. Se parece <br>
+            <input type="radio" name="p2" value="d">d. Que es Java? Se come? <br>
+
+            <h2>3. Dado el siguiente arreglo: let arr = [a, b, c, d] Con cual de las siguientes opciones obtenemos el último elemento del arreglo?</h2>
+
+            <input type="radio" name="p3" value="a">a. arr[1] <br>
+            <input type="radio" name="p3" value="b">b. arr[ar.length] <br>
+            <input type="radio" name="p3" value="c">c. arr[ar.length -1] <br>
+            <input type="radio" name="p3" value="d">d. arr.length <br>
+
+            <h2>Podemos utilizar "Redux" en aplicaciones de Angular?</h2>
+            
+            <input type="radio" name="p4" value="a">a. Si <br>
+            <input type="radio" name="p4" value="b">b. No <br>
+            <input type="radio" name="p4" value="c">c. Tal vez <br>
+            <input type="radio" name="p4" value="d">d. Que es Angular? <br>
+        
+            <h2>5. Ionic está basado en React?</h2>
+
+            <input type="radio" name="p5" value="a">a. Si <br>
+            <input type="radio" name="p5" value="b">b. No <br>
+            <input type="radio" name="p5" value="c">c. Algunas cosas <br>
+            <input type="radio" name="p5" value="d">d. I need to Cry! <br>
+
+                <input type="submit" value="Enviar">
+        </form>
+
+        </section>
+    </div>
+    <script src="/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+body{
+    background: rgb(238, 202, 238);
+    color: rgb(241, 238, 238);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 13px;
+}
+#container{
+    width: 50%;
+    background: violet;
+    margin: 20px auto;
+    overflow: auto;
+    padding: 25px;
+}
+header{
+    text-align: center;
+    border-bottom: rgb(255, 255, 255) dashed 1px;
+}
+header h1{
+    margin: 0;
+    padding: 0;
+    color: red;
+}
+header p{
+    margin-top: 6px;
+    padding: 0;
+    color: #000;
+}
+h2{
+    color: #000;
+
+}
+section{
+    min-height: 500px;
+
+}
+input[type='submit']{
+    background: #100572;
+    border:0;
+    color: #fff;
+    padding: 9px 16px;
+    cursor: pointer;
+
+}
+#resultado h2{
+    background: #ffee059f;
+    width: 50%;
+    padding: 9px;
+    margin: auto;
+    border-radius: 4px;
+    animation: rotate 3s infinite linear;
+  }
+  
+  @keyframes rotate {
+    from {
+     opacity: .7;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+#resultado span{
+    color: #000;
+    font-weight: bold;
+
+}
